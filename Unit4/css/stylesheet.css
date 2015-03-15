@@ -1,0 +1,120 @@
+html{
+	font-size: 1em;
+}
+
+body {
+	background-image: url('../images/baked-potato.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	width: 960px;
+}
+
+.content1 {
+	width: 400px;
+}
+
+.content2 {
+	width: 560px;
+}
+
+header {
+	background-color: rgba(244,244,244,.65);
+	width: 25%;
+	margin-left: 150px;
+	padding: 25px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Rancho', cursive;
+	font-size: 3em;
+	margin-top: 0px;
+}
+
+nav {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: 5px;
+	margin-left: 0px;
+	float: left;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+.about {
+	position: relative;
+	background-color: rgba(244,244,244,.65);
+	width: 25%;
+	margin-left: 150px;
+	padding: 25px;
+}
+
+.about hr {
+	width: 40px;
+	border: 1px solid black;
+	margin-left: 0;
+}
+
+.menu {
+	position: relative;
+	background-color: rgba(244,244,244,.65);
+	width: 25%;
+	margin-left: 150px;
+	padding: 25px;
+}
+
+.menu hr {
+	width: 40px;
+	border: 1px solid black;
+	margin-left: 0;
+}
+
+.footer {
+	position: relative;
+	background-color: rgba(244,244,244,.65);
+	width: 25%;
+	margin-left: 150px;
+	padding: 25px;
+}
+
+.footer a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+h2 {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: 'Signika Negative Light', sans-serif;
+	font-size: 18px;
+	list-style-type: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+strong {
+	font-family: 'Open Sans Bold 700', sans-serif;
+}

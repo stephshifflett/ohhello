@@ -1,0 +1,49 @@
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header {
+	background: url('../images/stripes.png') repeat-x;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+    text-indent: -9999px;
+    background: url('../images/logo-taasky.png') no-repeat;
+    white-space: nowrap;   
+    margin-top: 350px; 
+    margin-left: 135px;    
+    padding-bottom: 10px;    
+}
+
+hr {
+	margin-left: 135px;
+	width: 42px;
+	border: 1px solid #FD6E6E;
+}
+
+p {
+	margin-left: 135px;
+	padding-top: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 19pt;
+	color: #fff;
+}
+
+#button {
+	text-indent: -9999px;
+    background: url('../images/btn_store.png') no-repeat;
+    white-space: nowrap;   
+    margin-left: 135px;
+    width: 274px;
+    height: 74px;
+}
+
+a {
+	text-decoration: none;
+}

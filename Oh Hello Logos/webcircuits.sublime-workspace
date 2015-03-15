@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"s",
+				"outline-style"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"BACK",
+				"background"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"siz",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"clr",
+				"clear"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"col",
+				"col	Tag"
+			],
+			[
+				"t",
+				"th	Tag"
+			],
+			[
+				"the",
+				"thead	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"f",
+				"for	Attr"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"he",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Document</title>\n</head>\n<body>\n\n	\n</body>\n</html>",
+			"file": "/Users/Stephanie/GitHub/sshifflett.github.io/Unit5/sketch.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Project: Save As"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"package control: install package",
+			"install",
+			"instal"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit5/sketch.html",
+		"/Users/Stephanie/Desktop/What-I-Do.png",
+		"/Users/Stephanie/Desktop/Work With Me.png",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit4/css/stylesheet.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit4/index.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/index.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit5/css/stylesheet.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit5/styleguide.html",
+		"/Users/Stephanie/Downloads/sample_guide_v1/css/foundation.min.css",
+		"/Users/Stephanie/Downloads/sample_guide_v1/css/app.css",
+		"/Users/Stephanie/Downloads/sample_guide_v1/sample guide v1.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/css/stylesheet.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/index.html",
+		"/Users/Stephanie/Desktop/bjornd-jvectormap-0a0575b/tests/markers.html",
+		"/Users/Stephanie/Desktop/bjornd-jvectormap-0a0575b/tests/index.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/OhHello/index.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/OhHello/css/stylesheet.css",
+		"/Users/Stephanie/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/Stephanie/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/css/kata.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/css/kata.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/index.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/images/stripes.png",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/Unit3/Taasky/css/taasky.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/designchallenge1.html",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/designchallenge.css",
+		"/Users/Stephanie/GitHub/sshifflett.github.io/about.html",
+		"/Users/Stephanie/GitHub/about.html",
+		"/Users/Stephanie/Desktop/index2.html",
+		"/Users/Stephanie/Desktop/Sublime Projects/googleresponsive/main.css",
+		"/Users/Stephanie/Desktop/Sublime Projects/googleresponsive/index.html",
+		"/Users/Stephanie/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Stephanie/Desktop/Sublime Projects/googleresponsive/responsive.css",
+		"/Users/Stephanie/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Stephanie/GitHub/sshifflett.github.io/Unit5/sketch.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcode).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "webcircuits.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,441 @@
+/* Universal */
+
+	* {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	          box-sizing: border-box;
+	}
+
+	*:after,
+	*::before {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+/* Basics */
+
+	body {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 1.40;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	img {
+		vertical-align: middle;
+	}
+
+	.bg {
+		background-color: #71A670
+	}
+
+	.bg-alt {
+		background-color: #f8fafa;
+	}
+
+	section {
+    	padding: 100px 0;
+	}
+
+/* Headings */
+
+	h1, h2, h3, h4, a {
+		font-family: 'Lato', sans-serif;
+		line-height: 1.1;
+	}
+
+	h1 {
+		font-size: 1.9em;
+		font-weight: 700
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 1.6em;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 1.4em;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	h4 {
+		font-size: 1em;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #1F2F3F;
+		text-align: center;
+		margin: 0 auto 1em auto;
+	}
+
+	.heading {
+		border-bottom: 2px solid #FCD954;
+		width: 400px;
+		margin: 0 auto 1em auto;
+		text-align: center;
+	}
+
+	section h2.section-heading {
+	    margin-top: 0;
+	    margin-bottom: 15px;
+    	font-size: 2em;
+	}
+
+	section h3.section-subheading {
+	    margin-bottom: 75px;
+	    text-transform: none;
+	    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    font-size: 16px;
+	    font-style: italic;
+	    font-weight: 400;
+	}
+
+/* Text */
+
+	p {
+		line-height: 1.2em;
+		margin-bottom: 1em;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 0.7em;
+	}
+
+	strong {
+		font-weight: bold;
+	}
+
+	small {
+		font-size: 0.65em;
+		color: #777;
+		font-style: italic;
+	}
+
+	.quote {
+		font-family: 'Handlee', cursive;
+		font-size: 0.8em;
+	}
+
+	.center {
+	text-align: center;
+
+	.text-muted {
+		color: #777;
+	}
+}
+
+/* Anchors */
+
+	a {
+		text-decoration: none;
+		color: #444;
+	}
+
+	a:hover {
+		color: #71A670;
+	}
+
+/* Buttons */
+
+	.button-1 {
+		display: block;
+		margin: 0 auto;
+		border: 2px solid #1F2F3F;
+		color: #1F2F3F;
+		border-radius: 3px;
+	 	width: 180px;
+	 	height: 50px;
+	 	font-size: 1em;
+	 	line-height: 50px;
+	 	margin: 0 auto;
+	 	margin-top: 112px;
+		text-align: center;
+	}
+
+	.button-1:hover {
+		background-color: #1F2F3F;
+		color: #fff;
+	}
+
+	.button-2 {
+		display: block;
+		margin: 0 auto;
+		border: 2px solid #1F2F3F;
+		color: #1F2F3F;
+		border-radius: 3px;
+	 	width: 180px;
+	 	height: 50px;
+	 	font-size: 1em;
+	 	line-height: 2.5em;
+	 	margin: 0 auto;
+	 	margin-top: 5.6em;
+		text-align: center;
+	}
+
+	.button-2:hover {
+		background-color: #1F2F3F;
+		color: #fff;
+	}
+
+/* Header */
+
+	header {
+		z-index: 100;
+		height: 120px;
+		width: 100%;
+		background-color: #1F2F3F;
+	}
+
+	.ohhellologo {
+		width: 33%;
+		float: left;
+		margin-top: 0.5em;
+	}
+
+/* Navigation */
+
+	nav {
+		position: absolute;
+		top: 0.5em;
+		width: auto;
+		float: right;
+		left: 50%;
+	}
+
+	nav a {
+		position: relative;
+		display: inline-block;
+		margin: 2.5em 1em;
+	 	outline: none;
+	 	color: #fff;
+	 	text-decoration: none;
+	 	text-transform: uppercase;
+	 	letter-spacing: 0.05em;
+	 	font-weight: 400;
+	 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	 	font-size: 0.8em;
+	}
+
+	nav a:hover,
+	nav a:focus {
+		outline: none;
+		text-decoration: none;
+	}
+
+/* Nav Hover Effect */
+
+	.nav-effect a {
+		padding: 0 0 0.5em;
+	}
+
+	.nav-effect a::after {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 1%;
+		background: #fff;
+		content: '';
+		opacity: 0;
+		-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+		-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+		transition: height 0.3s, opacity 0.3s, transform 0.3s;
+		-webkit-transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	.nav-effect a:hover::after,
+	.nav-effect a:focus::after {
+		height: 3px;
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+
+/* Hero Banner */
+
+	#hero-banner img {
+		width: 100%;
+	}
+
+	#hero-banner-mobile img {
+		width: 100%;
+	}
+
+/* What I Do */
+
+	.col-md-4 {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	.col-md-4 img {
+		margin: 0 auto 1.5em auto;
+	}
+
+	.center p {
+		text-align: left;
+	}
+
+/* Meet The Desginer */
+
+	.round {
+		width: 120px;
+		height: 120px;
+		float: left;
+		border-radius: 100%;
+	}
+
+/* Work With Me */
+
+	#workwithme p {
+		text-align: left;
+	}
+
+/* Form*/
+
+	form {
+		padding: 0.8em;
+	}
+
+/*  Portfolio  */
+
+	#portfolio .portfolio-item {
+	    right: 0;
+	    margin: 0 0 15px;
+	}
+
+	#portfolio .portfolio-item .portfolio-link {
+	    display: block;
+	    position: relative;
+	    margin: 0 auto;
+	    max-width: 400px;
+	}
+
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0;
+	    background: rgba(254,209,54,.9);
+	    -webkit-transition: all ease .5s;
+	    -moz-transition: all ease .5s;
+	    transition: all ease .5s;
+	}
+
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+	    opacity: 1;
+	}
+
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+	    position: absolute;
+	    top: 50%;
+	    width: 100%;
+	    height: 20px;
+	    margin-top: -12px;
+	    text-align: center;
+	    font-size: 20px;
+	    color: #fff;
+	}
+
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+	    margin-top: -12px;
+	}
+
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+	    margin: 0;
+	}
+
+	#portfolio .portfolio-item .portfolio-caption {
+	    margin: 0 auto;
+	    padding: 25px;
+	    max-width: 400px;
+	    text-align: center;
+	    background-color: #fff;
+	}
+
+	#portfolio .portfolio-item .portfolio-caption h4 {
+	    margin: 0;
+	    text-transform: none;
+	}
+
+	#portfolio .portfolio-item .portfolio-caption p {
+	    margin: 0;
+	    font-style: italic;
+	}
+
+	#portfolio * {
+	    z-index: 2;
+	}
+
+
+/*  Footer  */
+
+	#footer p {
+		margin: 1em;
+
+	}
+
+/*  Responsive Web Design  */
+
+	/* Desktop and Tablet */
+
+		@media only screen and (min-width : 481px) {
+			
+			#hero-banner-mobile {
+				display: none
+			}
+		}
+
+		@media(min-width:767px) {
+    		#portfolio .portfolio-item {
+        		margin: 0 0 30px;
+    		}
+		}
+
+	/* Extra Small Devices, Phones */ 
+
+		@media only screen and (max-width : 480px) {
+
+			nav {
+				float: none;
+				width: auto;
+			}
+
+			#hero-banner {
+				display: none;
+			}
+
+			.col-md-4 {
+				float: none;
+				width: auto;
+			}
+
+		}
+
+	/* Custom, iPhone Retina */ 
+
+		@media only screen and (max-width : 320px) {
+
+			nav {
+				float: none;
+				width: auto;
+			}
+
+			#hero-banner {
+				display: none;
+			}
+
+		}

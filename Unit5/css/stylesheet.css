@@ -1,0 +1,154 @@
+#wrapper {
+	width: 960px;
+}
+
+header {
+	font-family: 'Karla', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.alt {
+	font-family: 'Karla', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+hr {
+	width: 60px;
+	border: 4px solid black;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+#type {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-family: 'Rambla', sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+h4 {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h5 {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h6 {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	margin-bottom: 26px;
+}
+
+.quote {
+	font-family: 'Handlee', cursive;
+	font-size: 16px;
+}
+
+.info {
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+}
+
+.box {
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+
+.box-alt {
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;
+}
+
+#colorone {
+	width: 100px;
+	height: 100px;
+	background-color: #1F2F3F;
+	border: 1px solid black;
+}
+
+#colortwo {
+	width: 100px;
+	height: 100px;
+	background-color: #F4F1E3;
+	border: 1px solid black;
+}
+
+#colorthree {
+	width: 100px;
+	height: 100px;
+	background-color: #FCD954;
+	border: 1px solid black;
+}
+
+#colorfour {
+	width: 100px;
+	height: 100px;
+	background-color: #71A670;
+	border: 1px solid black;
+}
+
+#colorfive {
+	width: 100px;
+	height: 100px;
+	background-color: #FAFEFF;
+	border: 1px solid black;
+}
+
+#colorsix {
+	width: 100px;
+	height: 100px;
+	background-color: #CCD3E0;
+	border: 1px solid black;
+}
+
+#colorseven {
+	width: 100px;
+	height: 100px;
+	background-color: #ABB4BF;
+	border: 1px solid black;
+}
+
+#coloreight {
+	width: 100px;
+	height: 100px;
+	background-color: #676D75;
+	border: 1px solid black;
+}
+
+#colornine {
+	width: 100px;
+	height: 100px;
+	background-color: #26272E;
+	border: 1px solid black;
+}
+
